@@ -1,0 +1,76 @@
+Catalyst Prototype Overview
+
+Project Name: Catalyst
+
+Tagline: The catalyst for your growth.
+
+Vision
+
+Catalyst is a modern web platform designed to help students build better
+study habits through focus sessions, planning, analytics, community
+features, and AI-powered assistance.
+
+Prototype Scope
+
+This prototype focuses on the front-end user experience and core
+interface design before full backend integration.
+
+Technology Stack
+
+Frontend - HTML5 - CSS3 - Vanilla JavaScript (ES6)
+
+Backend (Planned) - Python (FastAPI preferred) - REST API
+
+Database (Planned) - SQLite (development) - PostgreSQL (production)
+
+Version Control - Git & GitHub
+
+Core Pages
+
+-   Landing Page
+-   Authentication (Login & Signup in a single page)
+-   Dashboard
+-   Focus Timer
+-   Planner
+-   Calendar
+-   Notes
+-   Analytics
+-   Community
+-   Challenges
+-   Leaderboard
+-   AI Assistant
+-   Profile
+-   Settings
+-   Notifications
+
+UI & UX
+
+-   Responsive design
+-   Dark theme by default
+-   Light mode toggle switch
+-   Smooth animations
+-   Reusable UI components
+-   SVG icons and illustrations
+-   Default avatar selection
+
+Planned Features
+
+-   Focus timer
+-   Study planner
+-   Progress analytics
+-   Daily streaks
+-   Challenges
+-   Community feed
+-   AI study assistant
+-   Goal tracking
+-   Personalized onboarding
+
+Folder Structure
+
+assets/ css/ js/ pages/ data/ fonts/
+
+Goal
+
+Build a professional, startup-quality student productivity platform
+using clean, modular HTML, CSS, and JavaScript while preparing for
+future FastAPI backend integration.

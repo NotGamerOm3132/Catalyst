@@ -1,0 +1,4186 @@
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                    01 - VARIABLES.TXT
+===========================================================
+
+This file contains every reusable CSS variable used
+throughout Catalyst.
+
+===========================================================
+TYPOGRAPHY
+--font-primary
+
+Purpose
+-------
+Main font used across the entire application.
+
+Contains
+--------
+"Plus Jakarta Sans", sans-serif
+
+
+-----------------------------------------------------------
+
+--fs-xs
+
+Purpose
+-------
+Extra Small Font
+
+Contains
+--------
+0.75rem
+
+
+-----------------------------------------------------------
+
+--fs-sm
+
+Purpose
+-------
+Small Font
+
+Contains
+--------
+0.875rem
+
+
+-----------------------------------------------------------
+
+--fs-md
+
+Purpose
+-------
+Default Body Font
+
+Contains
+--------
+1rem
+
+
+-----------------------------------------------------------
+
+--fs-lg
+
+Purpose
+-------
+Large Body Font
+
+Contains
+--------
+1.125rem
+
+
+-----------------------------------------------------------
+
+--fs-xl
+
+Purpose
+-------
+Small Heading
+
+Contains
+--------
+1.5rem
+
+
+-----------------------------------------------------------
+
+--fs-2xl
+
+Purpose
+-------
+Medium Heading
+
+Contains
+--------
+2rem
+
+
+-----------------------------------------------------------
+
+--fs-3xl
+
+Purpose
+-------
+Large Heading
+
+Contains
+--------
+3rem
+
+
+-----------------------------------------------------------
+
+--fs-4xl
+
+Purpose
+-------
+Hero Heading
+
+Contains
+--------
+4rem
+
+===========================================================
+FONT WEIGHT
+
+--fw-light
+
+Purpose
+-------
+Light Text
+
+Contains
+--------
+300
+
+
+-----------------------------------------------------------
+
+--fw-regular
+
+Purpose
+-------
+Regular Body Text
+
+Contains
+--------
+400
+
+
+-----------------------------------------------------------
+
+--fw-medium
+
+Purpose
+-------
+Medium Text
+
+Contains
+--------
+500
+
+
+-----------------------------------------------------------
+
+--fw-semibold
+
+Purpose
+-------
+Semi Bold Text
+
+Contains
+--------
+600
+
+
+-----------------------------------------------------------
+
+--fw-bold
+
+Purpose
+-------
+Bold Text
+
+Contains
+--------
+700
+
+
+-----------------------------------------------------------
+
+--fw-extra
+
+Purpose
+-------
+Extra Bold Text
+
+Contains
+--------
+800
+
+===========================================================
+BRAND COLORS
+
+--primary
+
+Purpose
+-------
+Primary Brand Color
+
+Contains
+--------
+#6D5EF8
+
+
+-----------------------------------------------------------
+
+--primary-hover
+
+Purpose
+-------
+Hover Color of Primary
+
+Contains
+--------
+#5B4AF3
+
+
+-----------------------------------------------------------
+
+--primary-light
+
+Purpose
+-------
+Light Variant of Primary
+
+Contains
+--------
+#897DFF
+
+===========================================================
+ACCENT COLORS
+
+--accent
+
+Purpose
+-------
+Accent Highlight Color
+
+Contains
+--------
+#00D4FF
+
+
+-----------------------------------------------------------
+
+--accent-light
+
+Purpose
+-------
+Light Accent Variant
+
+Contains
+--------
+#65E7FF
+
+===========================================================
+STATUS COLORS
+
+--success
+
+Purpose
+-------
+Success Messages
+
+Contains
+--------
+#22C55E
+
+
+-----------------------------------------------------------
+
+--warning
+
+Purpose
+-------
+Warning Messages
+
+Contains
+--------
+#F59E0B
+
+
+-----------------------------------------------------------
+
+--danger
+
+Purpose
+-------
+Danger / Error Messages
+
+Contains
+--------
+#EF4444
+
+
+-----------------------------------------------------------
+
+--info
+
+Purpose
+-------
+Information Messages
+
+Contains
+--------
+#3B82F6
+
+===========================================================
+BACKGROUND COLORS
+
+--bg
+
+Purpose
+-------
+Main Page Background
+
+Contains
+--------
+#0B0F1A
+
+
+-----------------------------------------------------------
+
+--surface
+
+Purpose
+-------
+Card Background
+
+Contains
+--------
+#131A29
+
+
+-----------------------------------------------------------
+
+--surface-secondary
+
+Purpose
+-------
+Secondary Card / Input Background
+
+Contains
+--------
+#1B2435
+
+
+-----------------------------------------------------------
+
+--surface-hover
+
+Purpose
+-------
+Hover State Background
+
+Contains
+--------
+#252F44
+
+===========================================================
+TEXT COLORS
+
+--text
+
+Purpose
+-------
+Primary Text Color
+
+Contains
+--------
+#F8FAFC
+
+
+-----------------------------------------------------------
+
+--text-secondary
+
+Purpose
+-------
+Secondary Text
+
+Contains
+--------
+#CBD5E1
+
+
+-----------------------------------------------------------
+
+--text-muted
+
+Purpose
+-------
+Muted Text
+
+Contains
+--------
+#94A3B8
+
+===========================================================
+BORDER
+
+--border
+
+Purpose
+-------
+Default Border Color
+
+Contains
+--------
+#2D3748
+
+===========================================================
+GLASS EFFECT
+
+--glass
+
+Purpose
+-------
+Glassmorphism Background
+
+Contains
+--------
+rgba(255,255,255,.06)
+
+
+-----------------------------------------------------------
+
+--glass-border
+
+Purpose
+-------
+Glass Border Color
+
+Contains
+--------
+rgba(255,255,255,.08)
+
+===========================================================
+GRADIENTS
+
+--gradient-primary
+
+Purpose
+-------
+Primary Gradient
+
+Contains
+--------
+linear-gradient(
+135deg,
+#6D5EF8,
+#00D4FF
+)
+
+
+-----------------------------------------------------------
+
+--gradient-secondary
+
+Purpose
+-------
+Secondary Gradient
+
+Contains
+--------
+linear-gradient(
+135deg,
+#7C3AED,
+#4F46E5
+)
+
+
+-----------------------------------------------------------
+
+--gradient-success
+
+Purpose
+-------
+Success Gradient
+
+Contains
+--------
+linear-gradient(
+135deg,
+#22C55E,
+#16A34A
+)
+
+-----------------------------------------------------------
+
+--gradient-danger
+
+Purpose
+-------
+Danger Gradient
+
+Contains
+--------
+linear-gradient(
+135deg,
+#EF4444,
+#DC2626
+)
+
+===========================================================
+SHADOWS
+
+--shadow-sm
+
+Purpose
+-------
+Small Shadow
+
+Contains
+--------
+0 4px 12px rgba(0,0,0,.15)
+
+-----------------------------------------------------------
+
+--shadow-md
+
+Purpose
+-------
+Medium Shadow
+
+Contains
+--------
+0 10px 30px rgba(0,0,0,.22)
+-----------------------------------------------------------
+
+--shadow-lg
+
+Purpose
+-------
+Large Shadow
+
+Contains
+--------
+0 20px 50px rgba(0,0,0,.35)
+
+-----------------------------------------------------------
+
+--shadow-glow
+
+Purpose
+-------
+Purple Glow Shadow
+
+Contains
+--------
+0 0 40px rgba(109,94,248,.35)
+
+===========================================================
+BORDER RADIUS
+
+--radius-sm
+
+Purpose
+-------
+Small Radius
+
+Contains
+--------
+8px
+
+
+-----------------------------------------------------------
+
+--radius-md
+
+Purpose
+-------
+Medium Radius
+
+Contains
+--------
+12px
+
+
+-----------------------------------------------------------
+
+--radius-lg
+
+Purpose
+-------
+Large Radius
+
+Contains
+--------
+18px
+
+
+-----------------------------------------------------------
+
+--radius-xl
+
+Purpose
+-------
+Extra Large Radius
+
+Contains
+--------
+24px
+
+
+-----------------------------------------------------------
+
+--radius-2xl
+
+Purpose
+-------
+Maximum Card Radius
+
+Contains
+--------
+32px
+
+
+-----------------------------------------------------------
+
+--radius-full
+
+Purpose
+-------
+Fully Rounded
+
+Contains
+--------
+999px
+
+===========================================================
+SPACING
+
+--space-1
+Contains : 4px
+
+--space-2
+Contains : 8px
+
+--space-3
+Contains : 12px
+
+--space-4
+Contains : 16px
+
+--space-5
+Contains : 20px
+
+--space-6
+Contains : 24px
+
+--space-7
+Contains : 32px
+
+--space-8
+Contains : 40px
+
+--space-9
+Contains : 48px
+
+--space-10
+Contains : 64px
+
+===========================================================
+TRANSITIONS
+
+--transition-fast
+
+Purpose
+-------
+Fast Animation
+
+Contains
+--------
+0.2s ease
+
+
+-----------------------------------------------------------
+
+--transition
+
+Purpose
+-------
+Default Animation
+
+Contains
+--------
+0.3s ease
+-----------------------------------------------------------
+
+--transition-slow
+
+Purpose
+-------
+Slow Animation
+
+Contains
+--------
+0.5s ease
+----------------------------------------------------------
+LIGHT THEME
+
+[data-theme="light"]
+
+Purpose
+-------
+Overrides dark theme variables for light mode.
+
+Contains
+--------
+--bg
+--surface
+--surface-secondary
+--surface-hover
+--text
+--text-secondary
+--text-muted
+--border
+--glass
+--glass-border
+----------------------------------------------------------
+END OF VARIABLES.TXT
+
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                    02 - RESET.TXT
+===========================================================
+
+This file resets browser default styles and creates a
+consistent foundation across all browsers.
+
+===========================================================
+UNIVERSAL RESET
+===========================================================
+
+*,
+*::before,
+*::after
+
+Purpose
+-------
+Resets default browser spacing and applies the standard box
+model.
+
+Contains
+--------
+margin: 0
+padding: 0
+box-sizing: border-box
+
+
+===========================================================
+HTML
+===========================================================
+
+html
+
+Purpose
+-------
+Controls global HTML behavior.
+
+Contains
+--------
+-webkit-text-size-adjust: 100%
+text-size-adjust: 100%
+scroll-behavior: smooth
+
+
+===========================================================
+BODY
+===========================================================
+
+body
+
+Purpose
+-------
+Sets the default body rendering.
+
+Contains
+--------
+min-height: 100vh
+text-rendering: optimizeLegibility
+-webkit-font-smoothing: antialiased
+-moz-osx-font-smoothing: grayscale
+
+
+===========================================================
+MEDIA
+===========================================================
+
+img
+
+Purpose
+-------
+Responsive Images
+
+Contains
+--------
+display: block
+max-width: 100%
+
+
+-----------------------------------------------------------
+
+picture
+
+Purpose
+-------
+Responsive Picture Element
+
+Contains
+--------
+display: block
+max-width: 100%
+
+
+-----------------------------------------------------------
+
+video
+
+Purpose
+-------
+Responsive Videos
+
+Contains
+--------
+display: block
+max-width: 100%
+
+
+-----------------------------------------------------------
+
+canvas
+
+Purpose
+-------
+Canvas Elements
+
+Contains
+--------
+display: block
+max-width: 100%
+
+
+-----------------------------------------------------------
+
+svg
+
+Purpose
+-------
+SVG Graphics
+
+Contains
+--------
+display: block
+max-width: 100%
+
+
+===========================================================
+FORM ELEMENTS
+===========================================================
+
+input
+
+Purpose
+-------
+Inherit Parent Typography
+
+Contains
+--------
+font: inherit
+color: inherit
+
+
+-----------------------------------------------------------
+
+button
+
+Purpose
+-------
+Inherit Parent Typography
+
+Contains
+--------
+font: inherit
+color: inherit
+
+
+-----------------------------------------------------------
+
+textarea
+
+Purpose
+-------
+Inherit Parent Typography
+
+Contains
+--------
+font: inherit
+color: inherit
+
+
+-----------------------------------------------------------
+
+select
+
+Purpose
+-------
+Inherit Parent Typography
+
+Contains
+--------
+font: inherit
+color: inherit
+
+
+===========================================================
+BUTTON RESET
+===========================================================
+
+button
+
+Purpose
+-------
+Removes browser button styling.
+
+Contains
+--------
+border: none
+background: none
+cursor: pointer
+
+
+===========================================================
+INPUT RESET
+===========================================================
+
+input
+
+Purpose
+-------
+Removes default input styling.
+
+Contains
+--------
+outline: none
+border: none
+background: none
+
+
+-----------------------------------------------------------
+
+textarea
+
+Purpose
+-------
+Removes default textarea styling.
+
+Contains
+--------
+outline: none
+border: none
+background: none
+
+
+===========================================================
+LINKS
+===========================================================
+
+a
+
+Purpose
+-------
+Removes default link styling.
+
+Contains
+--------
+text-decoration: none
+color: inherit
+
+
+===========================================================
+LISTS
+===========================================================
+
+ul
+
+Purpose
+-------
+Removes list bullets.
+
+Contains
+--------
+list-style: none
+
+
+-----------------------------------------------------------
+
+ol
+
+Purpose
+-------
+Removes list numbering.
+
+Contains
+--------
+list-style: none
+
+
+===========================================================
+TABLES
+===========================================================
+
+table
+
+Purpose
+-------
+Normalizes table rendering.
+
+Contains
+--------
+border-collapse: collapse
+border-spacing: 0
+
+
+===========================================================
+TEXTAREA
+===========================================================
+
+textarea
+
+Purpose
+-------
+Allows only vertical resizing.
+
+Contains
+--------
+resize: vertical
+
+
+===========================================================
+QUOTES
+===========================================================
+
+blockquote
+
+Purpose
+-------
+Removes browser quote styling.
+
+Contains
+--------
+quotes: none
+
+
+-----------------------------------------------------------
+
+q
+
+Purpose
+-------
+Removes browser quote styling.
+
+Contains
+--------
+quotes: none
+
+
+-----------------------------------------------------------
+
+blockquote::before
+
+Purpose
+-------
+Removes automatic quotation marks.
+
+Contains
+--------
+content: ""
+
+
+-----------------------------------------------------------
+
+blockquote::after
+
+Purpose
+-------
+Removes automatic quotation marks.
+
+Contains
+--------
+content: ""
+
+
+-----------------------------------------------------------
+
+q::before
+
+Purpose
+-------
+Removes automatic quotation marks.
+
+Contains
+--------
+content: ""
+
+
+-----------------------------------------------------------
+
+q::after
+
+Purpose
+-------
+Removes automatic quotation marks.
+
+Contains
+--------
+content: ""
+
+
+===========================================================
+HORIZONTAL RULE
+===========================================================
+
+hr
+
+Purpose
+-------
+Removes browser default styling.
+
+Contains
+--------
+border: none
+
+
+===========================================================
+DISABLED STATE
+===========================================================
+
+:disabled
+
+Purpose
+-------
+Shows disabled cursor.
+
+Contains
+--------
+cursor: not-allowed
+
+
+===========================================================
+HIDDEN ATTRIBUTE
+===========================================================
+
+[hidden]
+
+Purpose
+-------
+Completely hides HTML elements using the hidden attribute.
+
+Contains
+--------
+display: none !important
+
+
+===========================================================
+END OF RESET.TXT
+===========================================================
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                    03 - BASE.TXT
+===========================================================
+
+This file contains the global styling for the entire
+Catalyst application. Every page inherits these styles.
+
+===========================================================
+@import
+===========================================================
+
+Google Font
+
+Purpose
+-------
+Imports the primary font used throughout Catalyst.
+
+Contains
+--------
+https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap
+
+
+===========================================================
+html
+===========================================================
+
+Purpose
+-------
+Sets global HTML behavior.
+
+Contains
+--------
+scroll-behavior: smooth
+font-size: 16px
+
+
+===========================================================
+body
+===========================================================
+
+Purpose
+-------
+Main application body.
+
+Contains
+--------
+font-family: var(--font-primary)
+background: var(--bg)
+color: var(--text)
+line-height: 1.6
+overflow-x: hidden
+transition:
+    background 0.35s ease
+    color 0.35s ease
+
+
+===========================================================
+h1, h2, h3, h4, h5, h6
+===========================================================
+
+Purpose
+-------
+Global heading styles.
+
+Contains
+--------
+color: var(--text)
+font-weight: 700
+line-height: 1.2
+
+
+===========================================================
+p
+===========================================================
+
+Purpose
+-------
+Default paragraph styling.
+
+Contains
+--------
+color: var(--text-secondary)
+
+
+===========================================================
+a
+===========================================================
+
+Purpose
+-------
+Global anchor styling.
+
+Contains
+--------
+color: inherit
+text-decoration: none
+
+
+===========================================================
+small
+===========================================================
+
+Purpose
+-------
+Secondary helper text.
+
+Contains
+--------
+color: var(--text-muted)
+
+
+===========================================================
+img
+===========================================================
+
+Purpose
+-------
+Responsive images.
+
+Contains
+--------
+max-width: 100%
+display: block
+
+
+===========================================================
+svg
+===========================================================
+
+Purpose
+-------
+SVG rendering.
+
+Contains
+--------
+display: block
+
+
+===========================================================
+button
+===========================================================
+
+Purpose
+-------
+Global button reset.
+
+Contains
+--------
+font-family: inherit
+border: none
+outline: none
+background: none
+cursor: pointer
+
+
+===========================================================
+input
+===========================================================
+
+Purpose
+-------
+Global input styling.
+
+Contains
+--------
+font-family: inherit
+border: none
+outline: none
+background: none
+
+
+===========================================================
+textarea
+===========================================================
+
+Purpose
+-------
+Global textarea styling.
+
+Contains
+--------
+font-family: inherit
+border: none
+outline: none
+background: none
+
+
+===========================================================
+select
+===========================================================
+
+Purpose
+-------
+Global select styling.
+
+Contains
+--------
+font-family: inherit
+border: none
+outline: none
+background: none
+
+
+===========================================================
+ul
+===========================================================
+
+Purpose
+-------
+Unordered list reset.
+
+Contains
+--------
+list-style: none
+
+
+===========================================================
+ol
+===========================================================
+
+Purpose
+-------
+Ordered list reset.
+
+Contains
+--------
+list-style: none
+
+
+===========================================================
+table
+===========================================================
+
+Purpose
+-------
+Global table styling.
+
+Contains
+--------
+border-collapse: collapse
+
+
+===========================================================
+.container
+===========================================================
+
+Purpose
+-------
+Primary page container.
+
+Contains
+--------
+width: min(92%, 1300px)
+margin: auto
+
+
+===========================================================
+.section
+===========================================================
+
+Purpose
+-------
+Standard page section spacing.
+
+Contains
+--------
+padding: 8rem 0
+
+
+===========================================================
+::-webkit-scrollbar
+===========================================================
+
+Purpose
+-------
+Scrollbar width.
+
+Contains
+--------
+width: 10px
+
+
+===========================================================
+::-webkit-scrollbar-track
+===========================================================
+
+Purpose
+-------
+Scrollbar background.
+
+Contains
+--------
+background: var(--bg-secondary)
+
+
+===========================================================
+::-webkit-scrollbar-thumb
+===========================================================
+
+Purpose
+-------
+Scrollbar thumb.
+
+Contains
+--------
+background: var(--primary)
+border-radius: 999px
+
+
+===========================================================
+::selection
+===========================================================
+
+Purpose
+-------
+Highlighted text styling.
+
+Contains
+--------
+background: var(--primary)
+color: #ffffff
+
+
+===========================================================
+:focus-visible
+===========================================================
+
+Purpose
+-------
+Keyboard focus indicator.
+
+Contains
+--------
+outline: 2px solid var(--primary)
+outline-offset: 3px
+
+
+===========================================================
+.hidden
+===========================================================
+
+Purpose
+-------
+Completely hides an element.
+
+Contains
+--------
+display: none !important
+
+
+===========================================================
+NOTES
+===========================================================
+
+Duplicate Classes
+-----------------
+.container
+Also exists in layout.css
+
+.section
+Also exists in layout.css
+
+.hidden
+Also exists in utilities.css
+
+Recommendation
+--------------
+Keep the layout-related versions inside layout.css
+and the visibility helper inside utilities.css to
+avoid duplicate definitions.
+
+===========================================================
+END OF BASE.TXT
+===========================================================
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                   04 - LAYOUT.TXT
+===========================================================
+
+This file contains all reusable layout classes used
+to structure every page of the Catalyst application.
+
+===========================================================
+.container
+===========================================================
+
+Purpose
+-------
+Primary content container.
+
+Contains
+--------
+width: min(92%, 1400px)
+margin-inline: auto
+
+
+===========================================================
+.container-sm
+===========================================================
+
+Purpose
+-------
+Small-width container.
+
+Contains
+--------
+width: min(92%, 800px)
+margin-inline: auto
+
+
+===========================================================
+.container-lg
+===========================================================
+
+Purpose
+-------
+Large-width container.
+
+Contains
+--------
+width: min(95%, 1600px)
+margin-inline: auto
+
+
+===========================================================
+.container-fluid
+===========================================================
+
+Purpose
+-------
+Full-width container.
+
+Contains
+--------
+width: 100%
+padding-inline: var(--space-6)
+
+
+===========================================================
+.section
+===========================================================
+
+Purpose
+-------
+Standard section spacing.
+
+Contains
+--------
+padding-block: 6rem
+
+
+===========================================================
+.section-sm
+===========================================================
+
+Purpose
+-------
+Small vertical section.
+
+Contains
+--------
+padding-block: 3rem
+
+
+===========================================================
+.section-lg
+===========================================================
+
+Purpose
+-------
+Large vertical section.
+
+Contains
+--------
+padding-block: 8rem
+
+
+===========================================================
+.flex
+===========================================================
+
+Purpose
+-------
+Creates a flex container.
+
+Contains
+--------
+display: flex
+
+
+===========================================================
+.inline-flex
+===========================================================
+
+Purpose
+-------
+Inline flex container.
+
+Contains
+--------
+display: inline-flex
+
+
+===========================================================
+.block
+===========================================================
+
+Purpose
+-------
+Block element.
+
+Contains
+--------
+display: block
+
+
+===========================================================
+.grid
+===========================================================
+
+Purpose
+-------
+Grid container.
+
+Contains
+--------
+display: grid
+
+
+===========================================================
+.flex-row
+===========================================================
+
+Purpose
+-------
+Horizontal flex layout.
+
+Contains
+--------
+flex-direction: row
+
+
+===========================================================
+.flex-column
+===========================================================
+
+Purpose
+-------
+Vertical flex layout.
+
+Contains
+--------
+flex-direction: column
+
+
+===========================================================
+.flex-wrap
+===========================================================
+
+Purpose
+-------
+Allows items to wrap.
+
+Contains
+--------
+flex-wrap: wrap
+
+
+===========================================================
+.items-start
+===========================================================
+
+Purpose
+-------
+Align items to the start.
+
+Contains
+--------
+align-items: flex-start
+
+
+===========================================================
+.items-center
+===========================================================
+
+Purpose
+-------
+Center items vertically.
+
+Contains
+--------
+align-items: center
+
+
+===========================================================
+.items-end
+===========================================================
+
+Purpose
+-------
+Align items to the end.
+
+Contains
+--------
+align-items: flex-end
+
+
+===========================================================
+.justify-start
+===========================================================
+
+Purpose
+-------
+Start horizontal alignment.
+
+Contains
+--------
+justify-content: flex-start
+
+
+===========================================================
+.justify-center
+===========================================================
+
+Purpose
+-------
+Center horizontal alignment.
+
+Contains
+--------
+justify-content: center
+
+
+===========================================================
+.justify-between
+===========================================================
+
+Purpose
+-------
+Distribute items with space between.
+
+Contains
+--------
+justify-content: space-between
+
+
+===========================================================
+.justify-around
+===========================================================
+
+Purpose
+-------
+Equal space around items.
+
+Contains
+--------
+justify-content: space-around
+
+
+===========================================================
+.justify-evenly
+===========================================================
+
+Purpose
+-------
+Equal spacing between all items.
+
+Contains
+--------
+justify-content: space-evenly
+
+
+===========================================================
+.grid-2
+===========================================================
+
+Purpose
+-------
+Two-column grid.
+
+Contains
+--------
+display: grid
+grid-template-columns: repeat(2, 1fr)
+
+
+===========================================================
+.grid-3
+===========================================================
+
+Purpose
+-------
+Three-column grid.
+
+Contains
+--------
+display: grid
+grid-template-columns: repeat(3, 1fr)
+
+
+===========================================================
+.grid-4
+===========================================================
+
+Purpose
+-------
+Four-column grid.
+
+Contains
+--------
+display: grid
+grid-template-columns: repeat(4, 1fr)
+
+
+===========================================================
+.grid-auto
+===========================================================
+
+Purpose
+-------
+Responsive auto-fit grid.
+
+Contains
+--------
+display: grid
+grid-template-columns: repeat(auto-fit, minmax(280px,1fr))
+
+
+===========================================================
+.gap-xs
+===========================================================
+
+Purpose
+-------
+Extra small gap.
+
+Contains
+--------
+gap: var(--space-1)
+
+
+===========================================================
+.gap-sm
+===========================================================
+
+Purpose
+-------
+Small gap.
+
+Contains
+--------
+gap: var(--space-2)
+
+
+===========================================================
+.gap-md
+===========================================================
+
+Purpose
+-------
+Medium gap.
+
+Contains
+--------
+gap: var(--space-4)
+
+
+===========================================================
+.gap-lg
+===========================================================
+
+Purpose
+-------
+Large gap.
+
+Contains
+--------
+gap: var(--space-6)
+
+
+===========================================================
+.gap-xl
+===========================================================
+
+Purpose
+-------
+Extra large gap.
+
+Contains
+--------
+gap: var(--space-8)
+
+
+===========================================================
+.stack-xs
+===========================================================
+
+Purpose
+-------
+Vertical spacing between children.
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-1)
+
+
+===========================================================
+.stack-sm
+===========================================================
+
+Purpose
+-------
+Small vertical stack.
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-2)
+
+
+===========================================================
+.stack-md
+===========================================================
+
+Purpose
+-------
+Medium vertical stack.
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-4)
+
+
+===========================================================
+.stack-lg
+===========================================================
+
+Purpose
+-------
+Large vertical stack.
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-6)
+
+
+===========================================================
+.cluster
+===========================================================
+
+Purpose
+-------
+Wrapping horizontal layout.
+
+Contains
+--------
+display: flex
+flex-wrap: wrap
+align-items: center
+gap: var(--space-4)
+
+
+===========================================================
+.center
+===========================================================
+
+Purpose
+-------
+Perfect center.
+
+Contains
+--------
+display: flex
+align-items: center
+justify-content: center
+
+
+===========================================================
+.center-x
+===========================================================
+
+Purpose
+-------
+Horizontal centering.
+
+Contains
+--------
+display: flex
+justify-content: center
+
+
+===========================================================
+.center-y
+===========================================================
+
+Purpose
+-------
+Vertical centering.
+
+Contains
+--------
+display: flex
+align-items: center
+
+
+===========================================================
+.relative
+===========================================================
+
+Purpose
+-------
+Relative positioning.
+
+Contains
+--------
+position: relative
+
+
+===========================================================
+.absolute
+===========================================================
+
+Purpose
+-------
+Absolute positioning.
+
+Contains
+--------
+position: absolute
+
+
+===========================================================
+.fixed
+===========================================================
+
+Purpose
+-------
+Fixed positioning.
+
+Contains
+--------
+position: fixed
+
+
+===========================================================
+.sticky
+===========================================================
+
+Purpose
+-------
+Sticky positioning.
+
+Contains
+--------
+position: sticky
+
+
+===========================================================
+.overflow-hidden
+===========================================================
+
+Purpose
+-------
+Hide overflowing content.
+
+Contains
+--------
+overflow: hidden
+
+
+===========================================================
+.overflow-auto
+===========================================================
+
+Purpose
+-------
+Automatic overflow.
+
+Contains
+--------
+overflow: auto
+
+
+===========================================================
+.w-full
+===========================================================
+
+Purpose
+-------
+Full width.
+
+Contains
+--------
+width: 100%
+
+
+===========================================================
+.h-full
+===========================================================
+
+Purpose
+-------
+Full height.
+
+Contains
+--------
+height: 100%
+
+
+===========================================================
+.z-10
+===========================================================
+
+Purpose
+-------
+Low z-index layer.
+
+Contains
+--------
+z-index: 10
+
+
+===========================================================
+.z-20
+===========================================================
+
+Purpose
+-------
+Medium z-index layer.
+
+Contains
+--------
+z-index: 20
+
+
+===========================================================
+.z-30
+===========================================================
+
+Purpose
+-------
+High z-index layer.
+
+Contains
+--------
+z-index: 30
+
+
+===========================================================
+END OF LAYOUT.TXT
+===========================================================
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                  05 - UTILITIES.TXT
+===========================================================
+
+This file contains reusable utility classes that can be
+applied anywhere in the application without creating
+custom CSS.
+
+===========================================================
+.hidden
+===========================================================
+
+Purpose
+-------
+Completely hides an element.
+
+Contains
+--------
+display: none !important
+
+
+===========================================================
+.visible
+===========================================================
+
+Purpose
+-------
+Makes an element visible.
+
+Contains
+--------
+visibility: visible
+
+
+===========================================================
+.invisible
+===========================================================
+
+Purpose
+-------
+Hides element while preserving layout.
+
+Contains
+--------
+visibility: hidden
+
+
+===========================================================
+.opacity-0
+===========================================================
+
+Purpose
+-------
+Completely transparent.
+
+Contains
+--------
+opacity: 0
+
+
+===========================================================
+.opacity-25
+===========================================================
+
+Purpose
+-------
+25% opacity.
+
+Contains
+--------
+opacity: .25
+
+
+===========================================================
+.opacity-50
+===========================================================
+
+Purpose
+-------
+50% opacity.
+
+Contains
+--------
+opacity: .5
+
+
+===========================================================
+.opacity-75
+===========================================================
+
+Purpose
+-------
+75% opacity.
+
+Contains
+--------
+opacity: .75
+
+
+===========================================================
+.opacity-100
+===========================================================
+
+Purpose
+-------
+Fully visible.
+
+Contains
+--------
+opacity: 1
+
+
+===========================================================
+.cursor-pointer
+===========================================================
+
+Purpose
+-------
+Pointer cursor.
+
+Contains
+--------
+cursor: pointer
+
+
+===========================================================
+.cursor-default
+===========================================================
+
+Purpose
+-------
+Default cursor.
+
+Contains
+--------
+cursor: default
+
+
+===========================================================
+.cursor-not-allowed
+===========================================================
+
+Purpose
+-------
+Disabled cursor.
+
+Contains
+--------
+cursor: not-allowed
+
+
+===========================================================
+.rounded-sm
+===========================================================
+
+Purpose
+-------
+Small border radius.
+
+Contains
+--------
+border-radius: var(--radius-sm)
+
+
+===========================================================
+.rounded-md
+===========================================================
+
+Purpose
+-------
+Medium border radius.
+
+Contains
+--------
+border-radius: var(--radius-md)
+
+
+===========================================================
+.rounded-lg
+===========================================================
+
+Purpose
+-------
+Large border radius.
+
+Contains
+--------
+border-radius: var(--radius-lg)
+
+
+===========================================================
+.rounded-xl
+===========================================================
+
+Purpose
+-------
+Extra large border radius.
+
+Contains
+--------
+border-radius: var(--radius-xl)
+
+
+===========================================================
+.rounded-full
+===========================================================
+
+Purpose
+-------
+Perfectly rounded.
+
+Contains
+--------
+border-radius: var(--radius-full)
+
+
+===========================================================
+.shadow-sm
+===========================================================
+
+Purpose
+-------
+Small shadow.
+
+Contains
+--------
+box-shadow: var(--shadow-sm)
+
+
+===========================================================
+.shadow-md
+===========================================================
+
+Purpose
+-------
+Medium shadow.
+
+Contains
+--------
+box-shadow: var(--shadow-md)
+
+
+===========================================================
+.shadow-lg
+===========================================================
+
+Purpose
+-------
+Large shadow.
+
+Contains
+--------
+box-shadow: var(--shadow-lg)
+
+
+===========================================================
+.shadow-glow
+===========================================================
+
+Purpose
+-------
+Purple glow effect.
+
+Contains
+--------
+box-shadow: var(--shadow-glow)
+
+
+===========================================================
+.border
+===========================================================
+
+Purpose
+-------
+Standard border.
+
+Contains
+--------
+border: 1px solid var(--border)
+
+
+===========================================================
+.border-top
+===========================================================
+
+Purpose
+-------
+Top border.
+
+Contains
+--------
+border-top: 1px solid var(--border)
+
+
+===========================================================
+.border-bottom
+===========================================================
+
+Purpose
+-------
+Bottom border.
+
+Contains
+--------
+border-bottom: 1px solid var(--border)
+
+
+===========================================================
+.border-left
+===========================================================
+
+Purpose
+-------
+Left border.
+
+Contains
+--------
+border-left: 1px solid var(--border)
+
+
+===========================================================
+.border-right
+===========================================================
+
+Purpose
+-------
+Right border.
+
+Contains
+--------
+border-right: 1px solid var(--border)
+
+
+===========================================================
+.text-left
+===========================================================
+
+Purpose
+-------
+Left aligned text.
+
+Contains
+--------
+text-align: left
+
+
+===========================================================
+.text-center
+===========================================================
+
+Purpose
+-------
+Centered text.
+
+Contains
+--------
+text-align: center
+
+
+===========================================================
+.text-right
+===========================================================
+
+Purpose
+-------
+Right aligned text.
+
+Contains
+--------
+text-align: right
+
+
+===========================================================
+.text-primary
+===========================================================
+
+Purpose
+-------
+Primary brand color.
+
+Contains
+--------
+color: var(--primary)
+
+
+===========================================================
+.text-secondary
+===========================================================
+
+Purpose
+-------
+Secondary text color.
+
+Contains
+--------
+color: var(--text-secondary)
+
+
+===========================================================
+.text-muted
+===========================================================
+
+Purpose
+-------
+Muted text.
+
+Contains
+--------
+color: var(--text-muted)
+
+
+===========================================================
+.text-success
+===========================================================
+
+Purpose
+-------
+Success text.
+
+Contains
+--------
+color: var(--success)
+
+
+===========================================================
+.text-warning
+===========================================================
+
+Purpose
+-------
+Warning text.
+
+Contains
+--------
+color: var(--warning)
+
+
+===========================================================
+.text-danger
+===========================================================
+
+Purpose
+-------
+Danger text.
+
+Contains
+--------
+color: var(--danger)
+
+
+===========================================================
+.text-info
+===========================================================
+
+Purpose
+-------
+Information text.
+
+Contains
+--------
+color: var(--info)
+
+
+===========================================================
+.bg-primary
+===========================================================
+
+Purpose
+-------
+Primary background.
+
+Contains
+--------
+background: var(--primary)
+
+
+===========================================================
+.bg-surface
+===========================================================
+
+Purpose
+-------
+Surface background.
+
+Contains
+--------
+background: var(--surface)
+
+
+===========================================================
+.bg-surface-secondary
+===========================================================
+
+Purpose
+-------
+Secondary surface.
+
+Contains
+--------
+background: var(--surface-secondary)
+
+
+===========================================================
+.bg-glass
+===========================================================
+
+Purpose
+-------
+Glass background.
+
+Contains
+--------
+background: var(--glass)
+backdrop-filter: blur(12px)
+
+
+===========================================================
+.bg-gradient-primary
+===========================================================
+
+Purpose
+-------
+Primary gradient background.
+
+Contains
+--------
+background: var(--gradient-primary)
+
+
+===========================================================
+.bg-gradient-secondary
+===========================================================
+
+Purpose
+-------
+Secondary gradient background.
+
+Contains
+--------
+background: var(--gradient-secondary)
+
+
+===========================================================
+.transition-fast
+===========================================================
+
+Purpose
+-------
+Fast transition.
+
+Contains
+--------
+transition: var(--transition-fast)
+
+
+===========================================================
+.transition
+===========================================================
+
+Purpose
+-------
+Default transition.
+
+Contains
+--------
+transition: var(--transition)
+
+
+===========================================================
+.transition-slow
+===========================================================
+
+Purpose
+-------
+Slow transition.
+
+Contains
+--------
+transition: var(--transition-slow)
+
+
+===========================================================
+.rotate-45
+===========================================================
+
+Purpose
+-------
+Rotate element.
+
+Contains
+--------
+transform: rotate(45deg)
+
+
+===========================================================
+.rotate-90
+===========================================================
+
+Purpose
+-------
+Rotate 90 degrees.
+
+Contains
+--------
+transform: rotate(90deg)
+
+
+===========================================================
+.scale-95
+===========================================================
+
+Purpose
+-------
+Shrink element.
+
+Contains
+--------
+transform: scale(.95)
+
+
+===========================================================
+.scale-100
+===========================================================
+
+Purpose
+-------
+Normal scale.
+
+Contains
+--------
+transform: scale(1)
+
+
+===========================================================
+.scale-105
+===========================================================
+
+Purpose
+-------
+Slightly enlarge element.
+
+Contains
+--------
+transform: scale(1.05)
+
+
+===========================================================
+.pointer-none
+===========================================================
+
+Purpose
+-------
+Disable mouse interaction.
+
+Contains
+--------
+pointer-events: none
+
+
+===========================================================
+.pointer-auto
+===========================================================
+
+Purpose
+-------
+Enable mouse interaction.
+
+Contains
+--------
+pointer-events: auto
+
+
+===========================================================
+.select-none
+===========================================================
+
+Purpose
+-------
+Prevent text selection.
+
+Contains
+--------
+user-select: none
+
+
+===========================================================
+.select-all
+===========================================================
+
+Purpose
+-------
+Select all text.
+
+Contains
+--------
+user-select: all
+
+
+===========================================================
+.select-text
+===========================================================
+
+Purpose
+-------
+Allow text selection.
+
+Contains
+--------
+user-select: text
+
+
+===========================================================
+END OF UTILITIES.TXT
+===========================================================
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                 06 - ANIMATIONS.TXT
+===========================================================
+
+This file contains all reusable animations and keyframes
+used throughout the Catalyst application.
+
+===========================================================
+.animate-fade-in
+===========================================================
+
+Purpose
+-------
+Fade an element into view.
+
+Contains
+--------
+animation: fadeIn .6s ease forwards
+
+
+===========================================================
+.animate-slide-up
+===========================================================
+
+Purpose
+-------
+Slide element upward while fading in.
+
+Contains
+--------
+animation: slideUp .6s ease forwards
+
+
+===========================================================
+.animate-slide-down
+===========================================================
+
+Purpose
+-------
+Slide element downward while fading in.
+
+Contains
+--------
+animation: slideDown .6s ease forwards
+
+
+===========================================================
+.animate-slide-left
+===========================================================
+
+Purpose
+-------
+Slide element from the left.
+
+Contains
+--------
+animation: slideLeft .6s ease forwards
+
+
+===========================================================
+.animate-slide-right
+===========================================================
+
+Purpose
+-------
+Slide element from the right.
+
+Contains
+--------
+animation: slideRight .6s ease forwards
+
+
+===========================================================
+.animate-scale-in
+===========================================================
+
+Purpose
+-------
+Scale an element while fading in.
+
+Contains
+--------
+animation: scaleIn .5s ease forwards
+
+
+===========================================================
+.animate-float
+===========================================================
+
+Purpose
+-------
+Creates a floating effect.
+
+Contains
+--------
+animation: float 5s ease-in-out infinite
+
+
+===========================================================
+.animate-pulse
+===========================================================
+
+Purpose
+-------
+Creates a pulsing effect.
+
+Contains
+--------
+animation: pulse 2s ease-in-out infinite
+
+
+===========================================================
+.animate-spin
+===========================================================
+
+Purpose
+-------
+Continuously rotates an element.
+
+Contains
+--------
+animation: spin 1s linear infinite
+
+
+===========================================================
+.animate-glow
+===========================================================
+
+Purpose
+-------
+Creates a glowing effect.
+
+Contains
+--------
+animation: glow 2s ease-in-out infinite alternate
+
+
+===========================================================
+.animate-gradient
+===========================================================
+
+Purpose
+-------
+Animates gradient backgrounds.
+
+Contains
+--------
+animation: gradientMove 8s linear infinite
+background-size: 300% 300%
+
+
+===========================================================
+.animate-blob
+===========================================================
+
+Purpose
+-------
+Organic floating blob animation.
+
+Contains
+--------
+animation: blob 12s ease-in-out infinite
+
+
+===========================================================
+.delay-100
+===========================================================
+
+Purpose
+-------
+Animation delay.
+
+Contains
+--------
+animation-delay: .1s
+
+
+===========================================================
+.delay-200
+===========================================================
+
+Purpose
+-------
+Animation delay.
+
+Contains
+--------
+animation-delay: .2s
+
+
+===========================================================
+.delay-300
+===========================================================
+
+Purpose
+-------
+Animation delay.
+
+Contains
+--------
+animation-delay: .3s
+
+
+===========================================================
+.delay-400
+===========================================================
+
+Purpose
+-------
+Animation delay.
+
+Contains
+--------
+animation-delay: .4s
+
+
+===========================================================
+.delay-500
+===========================================================
+
+Purpose
+-------
+Animation delay.
+
+Contains
+--------
+animation-delay: .5s
+
+
+===========================================================
+KEYFRAMES
+===========================================================
+
+@keyframes fadeIn
+
+Purpose
+-------
+Fade animation.
+
+Contains
+--------
+0%
+opacity: 0
+
+100%
+opacity: 1
+
+
+===========================================================
+@keyframes slideUp
+===========================================================
+
+Purpose
+-------
+Move upward while fading in.
+
+Contains
+--------
+0%
+opacity: 0
+transform: translateY(40px)
+
+100%
+opacity: 1
+transform: translateY(0)
+
+
+===========================================================
+@keyframes slideDown
+===========================================================
+
+Purpose
+-------
+Move downward while fading in.
+
+Contains
+--------
+0%
+opacity: 0
+transform: translateY(-40px)
+
+100%
+opacity: 1
+transform: translateY(0)
+
+
+===========================================================
+@keyframes slideLeft
+===========================================================
+
+Purpose
+-------
+Move from left.
+
+Contains
+--------
+0%
+opacity: 0
+transform: translateX(-40px)
+
+100%
+opacity: 1
+transform: translateX(0)
+
+
+===========================================================
+@keyframes slideRight
+===========================================================
+
+Purpose
+-------
+Move from right.
+
+Contains
+--------
+0%
+opacity: 0
+transform: translateX(40px)
+
+100%
+opacity: 1
+transform: translateX(0)
+
+
+===========================================================
+@keyframes scaleIn
+===========================================================
+
+Purpose
+-------
+Scale animation.
+
+Contains
+--------
+0%
+opacity: 0
+transform: scale(.9)
+
+100%
+opacity: 1
+transform: scale(1)
+
+
+===========================================================
+@keyframes float
+===========================================================
+
+Purpose
+-------
+Floating motion.
+
+Contains
+--------
+0%
+transform: translateY(0)
+
+50%
+transform: translateY(-12px)
+
+100%
+transform: translateY(0)
+
+
+===========================================================
+@keyframes pulse
+===========================================================
+
+Purpose
+-------
+Pulse animation.
+
+Contains
+--------
+0%
+transform: scale(1)
+
+50%
+transform: scale(1.05)
+
+100%
+transform: scale(1)
+
+
+===========================================================
+@keyframes spin
+===========================================================
+
+Purpose
+-------
+Rotation animation.
+
+Contains
+--------
+0%
+transform: rotate(0deg)
+
+100%
+transform: rotate(360deg)
+
+
+===========================================================
+@keyframes glow
+===========================================================
+
+Purpose
+-------
+Glow effect.
+
+Contains
+--------
+0%
+box-shadow: var(--shadow-sm)
+
+100%
+box-shadow: var(--shadow-glow)
+
+
+===========================================================
+@keyframes gradientMove
+===========================================================
+
+Purpose
+-------
+Animated gradient movement.
+
+Contains
+--------
+0%
+background-position: 0% 50%
+
+50%
+background-position: 100% 50%
+
+100%
+background-position: 0% 50%
+
+
+===========================================================
+@keyframes blob
+===========================================================
+
+Purpose
+-------
+Organic blob movement.
+
+Contains
+--------
+0%
+transform: translate(0,0) scale(1)
+
+33%
+transform: translate(20px,-25px) scale(1.05)
+
+66%
+transform: translate(-20px,15px) scale(.95)
+
+100%
+transform: translate(0,0) scale(1)
+
+
+===========================================================
+END OF ANIMATIONS.TXT
+===========================================================
+===========================================================
+                CATALYST FRONTEND DOCUMENTATION
+                 07 - COMPONENTS.TXT
+===========================================================
+
+This file documents every reusable UI component used
+throughout Catalyst.
+
+===========================================================
+BUTTONS
+===========================================================
+
+.btn
+
+Purpose
+-------
+Base button component.
+
+Contains
+--------
+display: inline-flex
+align-items: center
+justify-content: center
+gap: var(--space-2)
+padding: .9rem 1.5rem
+font-size: var(--fs-md)
+font-weight: var(--fw-semibold)
+border-radius: var(--radius-md)
+cursor: pointer
+transition: var(--transition)
+border: none
+
+
+-----------------------------------------------------------
+
+.btn-primary
+
+Purpose
+-------
+Primary action button.
+
+Contains
+--------
+background: var(--primary)
+color: #ffffff
+
+
+-----------------------------------------------------------
+
+.btn-secondary
+
+Purpose
+-------
+Secondary button.
+
+Contains
+--------
+background: var(--surface-secondary)
+color: var(--text)
+
+
+-----------------------------------------------------------
+
+.btn-outline
+
+Purpose
+-------
+Outlined button.
+
+Contains
+--------
+background: transparent
+border: 1px solid var(--primary)
+color: var(--primary)
+
+
+-----------------------------------------------------------
+
+.btn-gradient
+
+Purpose
+-------
+Gradient button.
+
+Contains
+--------
+background: var(--gradient-primary)
+color: white
+
+
+-----------------------------------------------------------
+
+.btn-success
+
+Purpose
+-------
+Success button.
+
+Contains
+--------
+background: var(--success)
+color: white
+
+
+-----------------------------------------------------------
+
+.btn-danger
+
+Purpose
+-------
+Danger button.
+
+Contains
+--------
+background: var(--danger)
+color: white
+
+
+-----------------------------------------------------------
+
+.btn-ghost
+
+Purpose
+-------
+Transparent button.
+
+Contains
+--------
+background: transparent
+color: var(--text)
+
+
+-----------------------------------------------------------
+
+.btn-icon
+
+Purpose
+-------
+Square icon button.
+
+Contains
+--------
+width: 44px
+height: 44px
+padding: 0
+
+
+-----------------------------------------------------------
+
+.btn-circle
+
+Purpose
+-------
+Circular button.
+
+Contains
+--------
+width: 48px
+height: 48px
+border-radius: var(--radius-full)
+
+
+-----------------------------------------------------------
+
+.btn-sm
+
+Purpose
+-------
+Small button.
+
+Contains
+--------
+padding: .6rem 1rem
+font-size: var(--fs-sm)
+
+
+-----------------------------------------------------------
+
+.btn-md
+
+Purpose
+-------
+Medium button.
+
+Contains
+--------
+Default button size
+
+
+-----------------------------------------------------------
+
+.btn-lg
+
+Purpose
+-------
+Large button.
+
+Contains
+--------
+padding: 1rem 2rem
+font-size: var(--fs-lg)
+
+
+===========================================================
+INPUTS
+===========================================================
+
+.input-group
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-2)
+
+
+-----------------------------------------------------------
+
+.input-label
+
+Contains
+--------
+font-size: var(--fs-sm)
+font-weight: var(--fw-medium)
+color: var(--text-secondary)
+
+
+-----------------------------------------------------------
+
+.input
+
+Contains
+--------
+width: 100%
+padding: .9rem 1rem
+background: var(--surface-secondary)
+border: 1px solid var(--border)
+border-radius: var(--radius-md)
+color: var(--text)
+
+
+-----------------------------------------------------------
+
+.textarea
+
+Contains
+--------
+Same properties as .input
+resize: vertical
+min-height: 140px
+
+
+-----------------------------------------------------------
+
+.select
+
+Contains
+--------
+Same properties as .input
+
+
+-----------------------------------------------------------
+
+.input-icon
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-3)
+
+
+-----------------------------------------------------------
+
+.checkbox
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-2)
+
+
+-----------------------------------------------------------
+
+.radio
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-2)
+
+
+-----------------------------------------------------------
+
+.switch
+
+Contains
+--------
+position: relative
+display: inline-flex
+
+
+-----------------------------------------------------------
+
+.slider
+
+Contains
+--------
+position: absolute
+transition: var(--transition)
+
+
+===========================================================
+CARDS
+===========================================================
+
+.card
+
+Contains
+--------
+background: var(--surface)
+border: 1px solid var(--border)
+border-radius: var(--radius-lg)
+padding: 1.5rem
+box-shadow: var(--shadow-sm)
+transition: var(--transition)
+
+
+-----------------------------------------------------------
+
+.card-header
+
+Contains
+--------
+display: flex
+align-items: center
+justify-content: space-between
+margin-bottom: var(--space-5)
+
+
+-----------------------------------------------------------
+
+.card-title
+
+Contains
+--------
+font-size: var(--fs-xl)
+font-weight: var(--fw-bold)
+color: var(--text)
+
+
+-----------------------------------------------------------
+
+.card-subtitle
+
+Contains
+--------
+font-size: var(--fs-sm)
+color: var(--text-muted)
+
+
+-----------------------------------------------------------
+
+.card-body
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-4)
+
+
+-----------------------------------------------------------
+
+.card-footer
+
+Contains
+--------
+display: flex
+justify-content: flex-end
+gap: var(--space-3)
+margin-top: var(--space-5)
+
+
+-----------------------------------------------------------
+
+.card-glass
+
+Contains
+--------
+background: var(--glass)
+backdrop-filter: blur(20px)
+border: 1px solid var(--glass-border)
+
+
+-----------------------------------------------------------
+
+.card-flat
+
+Contains
+--------
+background: var(--surface)
+box-shadow: none
+
+
+-----------------------------------------------------------
+
+.card-outline
+
+Contains
+--------
+background: transparent
+border: 1px solid var(--border)
+
+
+===========================================================
+NAVBAR
+===========================================================
+
+.app-navbar
+
+Contains
+--------
+height: var(--navbar-height)
+display: flex
+align-items: center
+justify-content: space-between
+padding-inline: var(--space-6)
+background: var(--surface)
+
+
+-----------------------------------------------------------
+
+.nav-left
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-4)
+
+
+-----------------------------------------------------------
+
+.nav-right
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-4)
+
+
+-----------------------------------------------------------
+
+.nav-search
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-3)
+
+
+-----------------------------------------------------------
+
+.nav-profile
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-3)
+
+
+===========================================================
+SIDEBAR
+===========================================================
+
+.sidebar
+
+Contains
+--------
+width: var(--sidebar-width)
+background: var(--surface)
+display: flex
+flex-direction: column
+
+
+-----------------------------------------------------------
+
+.sidebar-logo
+
+Contains
+--------
+display: flex
+align-items: center
+justify-content: center
+
+
+-----------------------------------------------------------
+
+.sidebar-nav
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-2)
+
+
+-----------------------------------------------------------
+
+.sidebar-link
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-3)
+padding: .9rem 1rem
+border-radius: var(--radius-md)
+transition: var(--transition)
+
+
+-----------------------------------------------------------
+
+.sidebar-link.active
+
+Contains
+--------
+background: var(--primary)
+color: white
+
+
+-----------------------------------------------------------
+
+.sidebar-bottom
+
+Contains
+--------
+margin-top: auto
+
+
+===========================================================
+WIDGETS
+===========================================================
+
+.widget
+
+Contains
+--------
+background: var(--surface)
+padding: 1.5rem
+border-radius: var(--radius-lg)
+box-shadow: var(--shadow-sm)
+
+
+-----------------------------------------------------------
+
+.widget-header
+
+Contains
+--------
+display: flex
+justify-content: space-between
+align-items: center
+
+
+-----------------------------------------------------------
+
+.widget-title
+
+Contains
+--------
+font-size: var(--fs-lg)
+font-weight: var(--fw-semibold)
+
+
+-----------------------------------------------------------
+
+.widget-content
+
+Contains
+--------
+display: flex
+flex-direction: column
+gap: var(--space-4)
+
+
+-----------------------------------------------------------
+
+.widget-footer
+
+Contains
+--------
+display: flex
+justify-content: flex-end
+
+
+===========================================================
+MISC COMPONENTS
+===========================================================
+
+.avatar
+
+Contains
+--------
+display: flex
+align-items: center
+justify-content: center
+border-radius: var(--radius-full)
+overflow: hidden
+
+
+.avatar-sm
+--------
+width: 32px
+height: 32px
+
+
+.avatar-md
+--------
+width: 48px
+height: 48px
+
+
+.avatar-lg
+--------
+width: 64px
+height: 64px
+
+
+.avatar-xl
+--------
+width: 96px
+height: 96px
+
+
+-----------------------------------------------------------
+
+.badge
+
+Contains
+--------
+display: inline-flex
+padding: .35rem .8rem
+border-radius: var(--radius-full)
+font-size: var(--fs-xs)
+font-weight: var(--fw-semibold)
+
+
+-----------------------------------------------------------
+
+.progress
+
+Contains
+--------
+width: 100%
+height: 8px
+border-radius: var(--radius-full)
+background: var(--surface-secondary)
+
+
+-----------------------------------------------------------
+
+.progress-bar
+
+Contains
+--------
+height: 100%
+background: var(--gradient-primary)
+border-radius: inherit
+
+
+-----------------------------------------------------------
+
+.divider
+
+Contains
+--------
+width: 100%
+height: 1px
+background: var(--border)
+
+
+-----------------------------------------------------------
+
+.modal
+
+Contains
+--------
+position: fixed
+inset: 0
+display: flex
+align-items: center
+justify-content: center
+background: rgba(0,0,0,.6)
+
+
+-----------------------------------------------------------
+
+.modal-content
+
+Contains
+--------
+background: var(--surface)
+padding: 2rem
+border-radius: var(--radius-xl)
+box-shadow: var(--shadow-lg)
+
+
+-----------------------------------------------------------
+
+.dropdown
+
+Contains
+--------
+position: absolute
+background: var(--surface)
+border: 1px solid var(--border)
+border-radius: var(--radius-md)
+
+
+-----------------------------------------------------------
+
+.tooltip
+
+Contains
+--------
+position: absolute
+padding: .5rem .75rem
+background: var(--surface)
+border-radius: var(--radius-sm)
+
+
+-----------------------------------------------------------
+
+.toast
+
+Contains
+--------
+display: flex
+align-items: center
+gap: var(--space-3)
+padding: 1rem
+background: var(--surface)
+border-left: 4px solid var(--primary)
+
+
+-----------------------------------------------------------
+
+.spinner
+
+Contains
+--------
+width: 40px
+height: 40px
+border-radius: 50%
+border: 4px solid var(--surface-secondary)
+border-top-color: var(--primary)
+animation: spin 1s linear infinite
+
+===========================================================
+END OF COMPONENTS.TXT
+===========================================================

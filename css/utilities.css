@@ -1,0 +1,468 @@
+/*==================================================
+                    DISPLAY
+==================================================*/
+
+.hidden{
+
+    display:none !important;
+
+}
+
+.visible{
+
+    display:block !important;
+
+}
+
+.invisible{
+
+    visibility:hidden;
+
+}
+
+.opacity-0{
+
+    opacity:0;
+
+}
+
+.opacity-50{
+
+    opacity:.5;
+
+}
+
+.opacity-75{
+
+    opacity:.75;
+
+}
+
+.opacity-100{
+
+    opacity:1;
+
+}
+
+
+/*==================================================
+                    CURSOR
+==================================================*/
+
+.cursor-pointer{
+
+    cursor:pointer;
+
+}
+
+.cursor-default{
+
+    cursor:default;
+
+}
+
+.cursor-not-allowed{
+
+    cursor:not-allowed;
+
+}
+
+
+/*==================================================
+                    BORDER RADIUS
+==================================================*/
+
+.rounded-sm{
+
+    border-radius:var(--radius-sm);
+
+}
+
+.rounded-md{
+
+    border-radius:var(--radius-md);
+
+}
+
+.rounded-lg{
+
+    border-radius:var(--radius-lg);
+
+}
+
+.rounded-xl{
+
+    border-radius:var(--radius-xl);
+
+}
+
+.rounded-full{
+
+    border-radius:999px;
+
+}
+
+
+/*==================================================
+                    SHADOWS
+==================================================*/
+
+.shadow-sm{
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.shadow-md{
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.shadow-lg{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+.shadow-none{
+
+    box-shadow:none;
+
+}
+
+
+/*==================================================
+                    BORDERS
+==================================================*/
+
+.border{
+
+    border:1px solid var(--border);
+
+}
+
+.border-top{
+
+    border-top:1px solid var(--border);
+
+}
+
+.border-bottom{
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.border-left{
+
+    border-left:1px solid var(--border);
+
+}
+
+.border-right{
+
+    border-right:1px solid var(--border);
+
+}
+
+
+/*==================================================
+                    TEXT ALIGN
+==================================================*/
+
+.text-left{
+
+    text-align:left;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-right{
+
+    text-align:right;
+
+}
+
+
+/*==================================================
+                    FONT WEIGHT
+==================================================*/
+
+.fw-regular{
+
+    font-weight:var(--fw-regular);
+
+}
+
+.fw-medium{
+
+    font-weight:var(--fw-medium);
+
+}
+
+.fw-semibold{
+
+    font-weight:var(--fw-semibold);
+
+}
+
+.fw-bold{
+
+    font-weight:var(--fw-bold);
+
+}
+
+
+/*==================================================
+                    TEXT COLORS
+==================================================*/
+
+.text-primary{
+
+    color:var(--primary);
+
+}
+
+.text-secondary{
+
+    color:var(--text-secondary);
+
+}
+
+.text-muted{
+
+    color:var(--text-muted);
+
+}
+
+.text-success{
+
+    color:var(--success);
+
+}
+
+.text-danger{
+
+    color:var(--danger);
+
+}
+
+.text-warning{
+
+    color:var(--warning);
+
+}
+
+.text-info{
+
+    color:var(--info);
+
+}
+
+
+/*==================================================
+                    BACKGROUNDS
+==================================================*/
+
+.bg-primary{
+
+    background:var(--primary);
+
+}
+
+.bg-surface{
+
+    background:var(--surface);
+
+}
+
+.bg-secondary{
+
+    background:var(--surface-secondary);
+
+}
+
+.bg-success{
+
+    background:var(--success);
+
+}
+
+.bg-danger{
+
+    background:var(--danger);
+
+}
+
+.bg-warning{
+
+    background:var(--warning);
+
+}
+
+.bg-info{
+
+    background:var(--info);
+
+}
+
+.bg-gradient{
+
+    background:var(--gradient-primary);
+
+}
+
+
+/*==================================================
+                    OVERFLOW
+==================================================*/
+
+.overflow-hidden{
+
+    overflow:hidden;
+
+}
+
+.overflow-auto{
+
+    overflow:auto;
+
+}
+
+
+/*==================================================
+                    USER SELECT
+==================================================*/
+
+.select-none{
+
+    user-select:none;
+
+}
+
+.select-all{
+
+    user-select:all;
+
+}
+
+
+/*==================================================
+                    POINTER EVENTS
+==================================================*/
+
+.pointer-none{
+
+    pointer-events:none;
+
+}
+
+.pointer-auto{
+
+    pointer-events:auto;
+
+}
+
+
+/*==================================================
+                    TRANSITIONS
+==================================================*/
+
+.transition{
+
+    transition:.3s ease;
+
+}
+
+.transition-fast{
+
+    transition:.2s ease;
+
+}
+
+.transition-slow{
+
+    transition:.5s ease;
+
+}
+
+
+/*==================================================
+                    ROTATION
+==================================================*/
+
+.rotate-90{
+
+    transform:rotate(90deg);
+
+}
+
+.rotate-180{
+
+    transform:rotate(180deg);
+
+}
+
+
+/*==================================================
+                    SCALE
+==================================================*/
+
+.scale-95{
+
+    transform:scale(.95);
+
+}
+
+.scale-100{
+
+    transform:scale(1);
+
+}
+
+.scale-105{
+
+    transform:scale(1.05);
+
+}
+
+
+/*==================================================
+                    Z-INDEX
+==================================================*/
+
+.z-auto{
+
+    z-index:auto;
+
+}
+
+.z-1{
+
+    z-index:1;
+
+}
+
+.z-10{
+
+    z-index:10;
+
+}
+
+.z-100{
+
+    z-index:100;
+
+}
+
+.z-1000{
+
+    z-index:1000;
+
+}

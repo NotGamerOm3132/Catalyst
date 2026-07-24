@@ -1,0 +1,265 @@
+/*==================================================
+                    GOOGLE FONT
+==================================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+
+/*==================================================
+                    DARK THEME
+==================================================*/
+
+:root {
+  /*==================================
+            TYPOGRAPHY
+==================================*/
+
+  --font-primary: "Plus Jakarta Sans", sans-serif;
+
+  /* Font Sizes */
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 3rem;
+  --fs-4xl: 4rem;
+
+  /* Font Weight */
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extra: 800;
+
+  /*==================================
+            COLORS
+==================================*/
+
+  /* Brand */
+
+  --primary: #6d5ef8;
+  --primary-hover: #5b4af3;
+  --primary-light: #897dff;
+
+  /* Accent */
+
+  --accent: #00d4ff;
+  --accent-light: #65e7ff;
+
+  /* Success */
+
+  --success: #22c55e;
+
+  /* Warning */
+
+  --warning: #f59e0b;
+
+  /* Danger */
+
+  --danger: #ef4444;
+
+  /* Info */
+
+  --info: #3b82f6;
+
+  /*==================================
+            BACKGROUND
+==================================*/
+
+  --bg: #0b0f1a;
+
+  --surface: #131a29;
+
+  --surface-secondary: #1b2435;
+
+  --surface-hover: #252f44;
+
+  /*==================================
+            TEXT
+==================================*/
+
+  --text: #f8fafc;
+
+  --text-secondary: #cbd5e1;
+
+  --text-muted: #94a3b8;
+
+  /*==================================
+            BORDER
+==================================*/
+
+  --border: #2d3748;
+
+  /*==================================
+            GLASS
+==================================*/
+
+  --glass: rgba(255, 255, 255, 0.06);
+
+  --glass-border: rgba(255, 255, 255, 0.08);
+
+  /*==================================
+            GRADIENTS
+==================================*/
+
+  --gradient-primary: linear-gradient(135deg, #6d5ef8, #00d4ff);
+
+  --gradient-secondary: linear-gradient(135deg, #7c3aed, #4f46e5);
+
+  --gradient-success: linear-gradient(135deg, #22c55e, #16a34a);
+
+  --gradient-danger: linear-gradient(135deg, #ef4444, #dc2626);
+
+  /*==================================
+            SHADOWS
+==================================*/
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.22);
+
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+  --shadow-glow: 0 0 40px rgba(109, 94, 248, 0.35);
+  --dashboard-shadow:
+    0 20px 50px rgba(0,0,0,.25),
+    0 0 40px rgba(109,94,248,.15);
+
+  /*==================================
+            BORDER RADIUS
+==================================*/
+
+  --radius-sm: 8px;
+
+  --radius-md: 12px;
+
+  --radius-lg: 18px;
+
+  --radius-xl: 24px;
+
+  --radius-2xl: 32px;
+
+  --radius-full: 999px;
+
+  /*==================================
+            SPACING
+==================================*/
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+
+  /*==================================
+            TIMING
+==================================*/
+
+  --transition-fast: 0.2s ease;
+
+  --transition: 0.3s ease;
+
+  --transition-slow: 0.5s ease;
+
+  /*==================================
+        FLOATING CARDS
+==================================*/
+
+  --floating-bg: rgba(19, 26, 41, 0.75);
+
+  --floating-border: rgba(255, 255, 255, 0.08);
+
+  --floating-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+
+  --floating-icon-bg: var(--gradient-primary);
+
+  --floating-title: var(--text);
+
+  --floating-subtitle: var(--text-muted);
+  /*==================================
+            WIDGETS
+==================================*/
+
+  --card-bg: var(--surface);
+
+--card-border: var(--border);
+
+--card-radius: var(--radius-xl);
+
+--card-shadow: var(--shadow-lg);
+/*==================================
+        DASHBOARD
+==================================*/
+
+--dashboard-shadow:
+    0 40px 120px rgba(0,0,0,.40),
+    0 0 150px rgba(109,94,248,.22),
+    0 0 300px rgba(0,212,255,.12),
+    0 0 450px rgba(109,94,248,.08);
+
+--section-gap: 8rem;
+
+--card-padding: 2rem;
+--card-padding-lg: 2.5rem;
+
+--content-width: 720px;
+--text-width: 620px;
+
+--icon-size: 72px;
+--icon-radius: var(--radius-lg);
+}
+
+[data-theme="light"] {
+  --bg: #f8fafc;
+
+  --surface: #ffffff;
+
+  --surface-secondary: #f1f5f9;
+
+  --surface-hover: #e2e8f0;
+
+  --text: #0f172a;
+
+  --text-secondary: #334155;
+
+  --text-muted: #64748b;
+
+  --border: #cbd5e1;
+
+  --glass: rgba(255, 252, 248, 0.82);
+
+  --glass-border: rgba(148, 163, 184, 0.18);
+
+  --floating-bg: rgba(255, 252, 248, 0.82);
+
+  --floating-border: rgba(148, 163, 184, 0.18);
+
+  --floating-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+
+  --floating-icon-bg: var(--gradient-primary);
+
+  --floating-title: var(--text);
+
+  --floating-subtitle: var(--text-muted);
+
+  --card-bg: #FFFFFF;
+
+--card-border: var(--border);
+
+--card-radius: var(--radius-xl);
+
+--card-shadow: 0 20px 50px rgba(15,23,42,.10);
+--dashboard-shadow:
+    0 30px 80px rgba(15,23,42,.12),
+    0 0 120px rgba(109,94,248,.10),
+    0 0 200px rgba(0,212,255,.06);
+}
