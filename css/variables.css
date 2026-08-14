@@ -126,8 +126,8 @@
 
   --shadow-glow: 0 0 40px rgba(109, 94, 248, 0.35);
   --dashboard-shadow:
-    0 20px 50px rgba(0,0,0,.25),
-    0 0 40px rgba(109,94,248,.15);
+    0 20px 50px rgba(0, 0, 0, .25),
+    0 0 40px rgba(109, 94, 248, .15);
 
   /*==================================
             BORDER RADIUS
@@ -191,31 +191,35 @@
 
   --card-bg: var(--surface);
 
---card-border: var(--border);
+  --card-border: var(--border);
 
---card-radius: var(--radius-xl);
+  --card-radius: var(--radius-xl);
 
---card-shadow: var(--shadow-lg);
-/*==================================
+  --card-shadow: var(--shadow-lg);
+  /*==================================
         DASHBOARD
 ==================================*/
 
---dashboard-shadow:
-    0 40px 120px rgba(0,0,0,.40),
-    0 0 150px rgba(109,94,248,.22),
-    0 0 300px rgba(0,212,255,.12),
-    0 0 450px rgba(109,94,248,.08);
+  --dashboard-shadow:
+    0 40px 120px rgba(0, 0, 0, .40),
+    0 0 150px rgba(109, 94, 248, .22),
+    0 0 300px rgba(0, 212, 255, .12),
+    0 0 450px rgba(109, 94, 248, .08);
 
---section-gap: 8rem;
+  --section-gap: 8rem;
 
---card-padding: 2rem;
---card-padding-lg: 2.5rem;
+  --card-padding: 2rem;
+  --card-padding-lg: 2.5rem;
 
---content-width: 720px;
---text-width: 620px;
+  --content-width: 720px;
+  --text-width: 620px;
 
---icon-size: 72px;
---icon-radius: var(--radius-lg);
+  --icon-size: 72px;
+  --icon-radius: var(--radius-lg);
+  --auth-surface: #111522;
+  --auth-surface-hover: #171b2b;
+  --auth-border: rgba(196, 92, 255, 0.28);
+  --auth-border-glow: rgba(108, 99, 255, 0.18);
 }
 
 [data-theme="light"] {
@@ -253,13 +257,17 @@
 
   --card-bg: #FFFFFF;
 
---card-border: var(--border);
+  --card-border: var(--border);
 
---card-radius: var(--radius-xl);
+  --card-radius: var(--radius-xl);
 
---card-shadow: 0 20px 50px rgba(15,23,42,.10);
---dashboard-shadow:
-    0 30px 80px rgba(15,23,42,.12),
-    0 0 120px rgba(109,94,248,.10),
-    0 0 200px rgba(0,212,255,.06);
+  --card-shadow: 0 20px 50px rgba(15, 23, 42, .10);
+  --dashboard-shadow:
+    0 30px 80px rgba(15, 23, 42, .12),
+    0 0 120px rgba(109, 94, 248, .10),
+    0 0 200px rgba(0, 212, 255, .06);
+  --auth-surface: #f7f5fc;
+  --auth-surface-hover: #efebf8;
+  --auth-border: rgba(108, 99, 255, 0.25);
+  --auth-border-glow: rgba(196, 92, 255, 0.12);
 }
