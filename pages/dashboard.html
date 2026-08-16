@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your Catalyst student productivity dashboard.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Dashboard | Catalyst</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/pages/dashboard.css">
+</head>
+
+<body>
+
+    <div class="dashboard-app">
+
+        <aside class="dashboard-sidebar" id="dashboard-sidebar">
+
+            <div class="sidebar-logo">
+                <a href="../index.html" class="dashboard-brand" aria-label="Catalyst home">
+                    <span class="dashboard-brand-full">Catalyst<span class="dashboard-brand-dot">.</span></span>
+                </a>
+
+                <button type="button" class="dashboard-menu-toggle btn btn-icon" id="dashboard-menu-toggle"
+                    aria-label="Toggle navigation" aria-controls="dashboard-sidebar" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav" aria-label="Dashboard navigation">
+
+                <div class="sidebar-nav-group">
+
+                    <span class="sidebar-nav-label">Overview</span>
+
+                    <a href="dashboard.html" class="sidebar-link active">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="3" width="7" height="7" rx="1"></rect>
+                            <rect x="14" y="3" width="7" height="7" rx="1"></rect>
+                            <rect x="3" y="14" width="7" height="7" rx="1"></rect>
+                            <rect x="14" y="14" width="7" height="7" rx="1"></rect>
+                        </svg>
+                        <span>Dashboard</span>
+                    </a>
+
+                    <a href="planner.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="3" y="4" width="18" height="17" rx="2"></rect>
+                            <path d="M16 2v4M8 2v4M3 10h18"></path>
+                        </svg>
+                        <span>Planner</span>
+                    </a>
+
+                    <a href="timer.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="13" r="8"></circle>
+                            <path d="M12 9v4l2.5 2.5M9 2h6"></path>
+                        </svg>
+                        <span>Focus Timer</span>
+                    </a>
+
+                    <a href="notes.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M5 3h10l4 4v14H5z"></path>
+                            <path d="M14 3v5h5M8 13h8M8 17h6"></path>
+                        </svg>
+                        <span>Notes</span>
+                    </a>
+
+                    <a href="analytics.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 19V5M4 19h16"></path>
+                            <path d="M8 16v-5M12 16V7M16 16v-8M20 16v-3"></path>
+                        </svg>
+                        <span>Analytics</span>
+                    </a>
+
+                </div>
+
+                <div class="sidebar-nav-group">
+
+                    <span class="sidebar-nav-label">Community</span>
+
+                    <a href="community.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.8 9.8 0 0 1-4-.8L3 21l1.8-4.2A8.3 8.3 0 0 1 3 11.5 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5Z">
+                            </path>
+                        </svg>
+                        <span>Community</span>
+                    </a>
+
+                    <a href="challenges.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 4h8M9 4v3a3 3 0 0 0 6 0V4"></path>
+                            <path d="M7 5H4v2a5 5 0 0 0 5 5M17 5h3v2a5 5 0 0 1-5 5"></path>
+                            <path d="M12 12v5M8 21h8M10 17h4"></path>
+                        </svg>
+                        <span>Challenges</span>
+                    </a>
+
+                    <a href="leaderboard.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M8 21h8M12 17v4"></path>
+                            <path d="M7 4h10v5a5 5 0 0 1-10 0z"></path>
+                            <path d="M7 6H4v2a4 4 0 0 0 4 4M17 6h3v2a4 4 0 0 1-4 4"></path>
+                        </svg>
+                        <span>Leaderboard</span>
+                    </a>
+
+                </div>
+
+                <div class="sidebar-nav-group">
+
+                    <span class="sidebar-nav-label">Personal</span>
+
+                    <a href="profile.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="8" r="4"></circle>
+                            <path d="M4 21a8 8 0 0 1 16 0"></path>
+                        </svg>
+                        <span>Profile</span>
+                    </a>
+
+                    <a href="settings.html" class="sidebar-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                                d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-1.8 1.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-2.6V20a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1-1.8-1.8.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.6-1H6v-2.6h.2a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1 1.8-1.8.1.1a1.7 1.7 0 0 0 1.9.3 1.7 1.7 0 0 0 1-1.6V5h2.6v.2a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1 1.8 1.8-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v2.6h-.2a1.7 1.7 0 0 0-1.6 1Z">
+                            </path>
+                        </svg>
+                        <span>Settings</span>
+                    </a>
+
+                </div>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="profile.html" class="sidebar-profile">
+
+                    <div class="avatar avatar-md">
+                        <span>G</span>
+                    </div>
+
+                    <div class="sidebar-profile-info">
+                        <strong>Student</strong>
+                        <span>View profile</span>
+                    </div>
+
+                    <svg class="sidebar-profile-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="m9 18 6-6-6-6"></path>
+                    </svg>
+
+                </a>
+
+            </div>
+
+        </aside>
+
+        <div class="dashboard-main">
+
+            <header class="dashboard-navbar">
+
+                <div class="dashboard-navbar-left">
+                    <div class="dashboard-page-heading">
+                        <span class="dashboard-date" id="dashboard-date">
+                            Saturday, August 15
+                        </span>
+                        <h1>Dashboard</h1>
+                    </div>
+
+                </div>
+
+                <div class="dashboard-navbar-right">
+
+                    <button type="button" class="dashboard-nav-button btn btn-icon" aria-label="Search">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7"></circle>
+                            <path d="m20 20-4-4"></path>
+                        </svg>
+                    </button>
+
+                    <button type="button" class="dashboard-nav-button btn btn-icon" aria-label="Notifications">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"></path>
+                            <path d="M10 21h4"></path>
+                        </svg>
+                        <span class="notification-dot"></span>
+                    </button>
+
+                    <button type="button" class="theme-toggle dashboard-nav-button btn btn-icon" id="theme-toggle"
+                        aria-label="Toggle theme">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path id="theme-icon-path"></path>
+                        </svg>
+                    </button>
+
+                    <a href="profile.html" class="dashboard-nav-profile">
+
+                        <div class="avatar avatar-sm">
+                            <span>G</span>
+                        </div>
+
+                        <div class="dashboard-nav-profile-info">
+                            <strong>Student</strong>
+                            <span>Level 12</span>
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </header>
+
+            <main class="dashboard-content">
+
+                <section class="dashboard-welcome">
+
+                    <div class="welcome-content">
+
+                        <span class="dashboard-eyebrow">
+                            Your progress matters
+                        </span>
+
+                        <h2>
+                            Welcome back, Student<span class="welcome-accent">.</span>
+                        </h2>
+
+                        <p>
+                            Stay consistent, keep your momentum, and make
+                            today count.
+                        </p>
+
+                    </div>
+
+                    <div class="welcome-decoration" aria-hidden="true">
+                        <div class="welcome-orb welcome-orb-one"></div>
+                        <div class="welcome-orb welcome-orb-two"></div>
+                        <div class="welcome-grid"></div>
+                    </div>
+
+                </section>
+
+                <section class="dashboard-stats" aria-label="Your statistics">
+
+                    <article class="dashboard-stat-card">
+
+                        <div class="dashboard-stat-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 3 14.5 9.5 21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="dashboard-stat-content">
+                            <span class="dashboard-stat-label">XP</span>
+                            <strong>2,480</strong>
+                            <small>+180 this week</small>
+                        </div>
+
+                    </article>
+
+                    <article class="dashboard-stat-card">
+
+                        <div class="dashboard-stat-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 3c2 3 5 4.5 5 9a5 5 0 0 1-10 0c0-2.5 1.2-4.4 3.3-6.2"></path>
+                                <path d="M12 21a3 3 0 0 0 3-3c0-1.5-1-2.5-3-4-2 1.5-3 2.5-3 4a3 3 0 0 0 3 3Z"></path>
+                            </svg>
+                        </div>
+
+                        <div class="dashboard-stat-content">
+                            <span class="dashboard-stat-label">Streak</span>
+                            <strong>12 days</strong>
+                            <small>Personal best: 18</small>
+                        </div>
+
+                    </article>
+
+                    <article class="dashboard-stat-card">
+
+                        <div class="dashboard-stat-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path d="M12 7v5l3 2"></path>
+                            </svg>
+                        </div>
+
+                        <div class="dashboard-stat-content">
+                            <span class="dashboard-stat-label">Focus Time</span>
+                            <strong>3h 24m</strong>
+                            <small>Today</small>
+                        </div>
+
+                    </article>
+
+                    <article class="dashboard-stat-card">
+
+                        <div class="dashboard-stat-icon">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m5 12 4 4L19 6"></path>
+                                <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+                            </svg>
+                        </div>
+
+                        <div class="dashboard-stat-content">
+                            <span class="dashboard-stat-label">Tasks</span>
+                            <strong>8 / 10</strong>
+                            <small>80% completed</small>
+                        </div>
+
+                    </article>
+
+                </section>
+
+                <section class="dashboard-grid">
+
+                    <div class="dashboard-column dashboard-column-main">
+
+                        <article class="dashboard-card daily-progress-card">
+
+                            <div class="dashboard-card-header">
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Daily Progress
+                                    </span>
+                                    <h3 class="dashboard-card-title">
+                                        Keep the momentum going
+                                    </h3>
+                                </div>
+
+                                <span class="dashboard-progress-percent">
+                                    80%
+                                </span>
+
+                            </div>
+
+                            <div class="daily-progress-body">
+
+                                <div class="progress-circle" aria-label="80 percent complete">
+                                    <svg viewBox="0 0 120 120" aria-hidden="true">
+                                        <circle class="progress-circle-track" cx="60" cy="60" r="50"></circle>
+                                        <circle class="progress-circle-value" cx="60" cy="60" r="50" pathLength="100">
+                                        </circle>
+                                    </svg>
+
+                                    <div class="progress-circle-content">
+                                        <strong>80%</strong>
+                                        <span>Complete</span>
+                                    </div>
+                                </div>
+
+                                <div class="daily-progress-details">
+
+                                    <div class="progress-detail">
+                                        <span class="progress-detail-dot completed"></span>
+                                        <div>
+                                            <strong>8 completed</strong>
+                                            <span>Tasks finished today</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-detail">
+                                        <span class="progress-detail-dot remaining"></span>
+                                        <div>
+                                            <strong>2 remaining</strong>
+                                            <span>Tasks left for today</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="progress-detail">
+                                        <span class="progress-detail-dot focus"></span>
+                                        <div>
+                                            <strong>3h 24m focused</strong>
+                                            <span>Across 4 sessions</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                        <article class="dashboard-card tasks-card">
+
+                            <div class="dashboard-card-header">
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Planner
+                                    </span>
+                                    <h3 class="dashboard-card-title">
+                                        Today's Tasks
+                                    </h3>
+                                </div>
+
+                                <a href="planner.html" class="dashboard-card-action">
+                                    View all
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </a>
+
+                            </div>
+
+                            <div class="task-list">
+
+                                <label class="task-item completed">
+
+                                    <input type="checkbox" checked>
+
+                                    <span class="task-checkbox">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="m5 12 4 4L19 6"></path>
+                                        </svg>
+                                    </span>
+
+                                    <span class="task-content">
+                                        <strong>Complete mathematics revision</strong>
+                                        <small>Mathematics · 45 min</small>
+                                    </span>
+
+                                    <span class="task-priority high">
+                                        High
+                                    </span>
+
+                                </label>
+
+                                <label class="task-item completed">
+
+                                    <input type="checkbox" checked>
+
+                                    <span class="task-checkbox">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="m5 12 4 4L19 6"></path>
+                                        </svg>
+                                    </span>
+
+                                    <span class="task-content">
+                                        <strong>Read physics chapter 4</strong>
+                                        <small>Physics · 30 min</small>
+                                    </span>
+
+                                    <span class="task-priority medium">
+                                        Medium
+                                    </span>
+
+                                </label>
+
+                                <label class="task-item">
+
+                                    <input type="checkbox">
+
+                                    <span class="task-checkbox"></span>
+
+                                    <span class="task-content">
+                                        <strong>Finish Catalyst UI work</strong>
+                                        <small>Personal · 60 min</small>
+                                    </span>
+
+                                    <span class="task-priority high">
+                                        High
+                                    </span>
+
+                                </label>
+
+                                <label class="task-item">
+
+                                    <input type="checkbox">
+
+                                    <span class="task-checkbox"></span>
+
+                                    <span class="task-content">
+                                        <strong>Review chemistry notes</strong>
+                                        <small>Chemistry · 25 min</small>
+                                    </span>
+
+                                    <span class="task-priority low">
+                                        Low
+                                    </span>
+
+                                </label>
+
+                            </div>
+
+                            <a href="planner.html" class="btn btn-outline btn-sm task-add-button">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 5v14M5 12h14"></path>
+                                </svg>
+                                Add task
+                            </a>
+
+                        </article>
+
+                        <article class="dashboard-card exams-card">
+
+                            <div class="dashboard-card-header">
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Upcoming
+                                    </span>
+                                    <h3 class="dashboard-card-title">
+                                        Upcoming Exams
+                                    </h3>
+                                </div>
+
+                                <a href="planner.html" class="dashboard-card-action">
+                                    Planner
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </a>
+
+                            </div>
+
+                            <div class="exam-list">
+
+                                <div class="exam-item">
+
+                                    <div class="exam-date">
+                                        <span>24</span>
+                                        <small>AUG</small>
+                                    </div>
+
+                                    <div class="exam-info">
+                                        <strong>Mathematics</strong>
+                                        <span>Algebra &amp; Trigonometry</span>
+                                    </div>
+
+                                    <span class="exam-countdown">
+                                        9 days
+                                    </span>
+
+                                </div>
+
+                                <div class="exam-item">
+
+                                    <div class="exam-date">
+                                        <span>29</span>
+                                        <small>AUG</small>
+                                    </div>
+
+                                    <div class="exam-info">
+                                        <strong>Physics</strong>
+                                        <span>Mechanics &amp; Motion</span>
+                                    </div>
+
+                                    <span class="exam-countdown">
+                                        14 days
+                                    </span>
+
+                                </div>
+
+                                <div class="exam-item">
+
+                                    <div class="exam-date">
+                                        <span>03</span>
+                                        <small>SEP</small>
+                                    </div>
+
+                                    <div class="exam-info">
+                                        <strong>Chemistry</strong>
+                                        <span>Atoms &amp; Chemical Bonding</span>
+                                    </div>
+
+                                    <span class="exam-countdown">
+                                        19 days
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="dashboard-column dashboard-column-side">
+
+                        <article class="dashboard-card xp-card">
+
+                            <div class="dashboard-card-header">
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Level Progress
+                                    </span>
+                                    <h3 class="dashboard-card-title">
+                                        Level 12
+                                    </h3>
+                                </div>
+
+                                <span class="xp-card-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M12 3 14.5 9.5 21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5Z"></path>
+                                    </svg>
+                                </span>
+
+                            </div>
+
+                            <div class="xp-progress">
+
+                                <div class="xp-progress-label">
+                                    <span>2,480 XP</span>
+                                    <span>3,000 XP</span>
+                                </div>
+
+                                <div class="xp-progress-track">
+                                    <span class="xp-progress-value"></span>
+                                </div>
+
+                                <small>
+                                    520 XP until Level 13
+                                </small>
+
+                            </div>
+
+                        </article>
+
+                        <article class="dashboard-card streak-card">
+
+                            <div class="streak-card-main">
+
+                                <div class="streak-icon">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                                        <path d="M12 3c2 3 5 4.5 5 9a5 5 0 0 1-10 0c0-2.5 1.2-4.4 3.3-6.2"></path>
+                                        <path d="M12 21a3 3 0 0 0 3-3c0-1.5-1-2.5-3-4-2 1.5-3 2.5-3 4a3 3 0 0 0 3 3Z">
+                                        </path>
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Current Streak
+                                    </span>
+                                    <strong>12</strong>
+                                    <span>days</span>
+                                </div>
+
+                            </div>
+
+                            <div class="streak-week">
+
+                                <span class="streak-day active">
+                                    <small>M</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day active">
+                                    <small>T</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day active">
+                                    <small>W</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day active">
+                                    <small>T</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day active">
+                                    <small>F</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day active today">
+                                    <small>S</small>
+                                    <i></i>
+                                </span>
+
+                                <span class="streak-day">
+                                    <small>S</small>
+                                    <i></i>
+                                </span>
+
+                            </div>
+
+                        </article>
+
+                        <article class="dashboard-card focus-card">
+
+                            <div class="dashboard-card-header">
+
+                                <div>
+                                    <span class="dashboard-card-eyebrow">
+                                        Focus
+                                    </span>
+                                    <h3 class="dashboard-card-title">
+                                        Ready to focus?
+                                    </h3>
+                                </div>
+
+                                <span class="focus-status">
+                                    <i></i>
+                                    Ready
+                                </span>
+
+                            </div>
+
+                            <div class="focus-timer-preview">
+                                <strong>25:00</strong>
+                                <span>Pomodoro session</span>
+                            </div>
+
+                            <a href="timer.html" class="btn btn-gradient btn-lg focus-start-button">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m9 6 9 6-9 6Z"></path>
+                                </svg>
+                                Start Focus
+                            </a>
+
+                        </article>
+
+                        <article class="dashboard-card ai-suggestion">
+
+                            <div class="ai-suggestion-glow" aria-hidden="true"></div>
+
+                            <div class="dashboard-card-header">
+
+                                <div class="ai-heading">
+
+                                    <span class="ai-icon">
+                                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                                            <path d="M12 3 14 9l6 2-6 2-2 6-2-6-6-2 6-2Z"></path>
+                                        </svg>
+                                    </span>
+
+                                    <div>
+                                        <span class="dashboard-card-eyebrow">
+                                            Catalyst AI
+                                        </span>
+                                        <h3 class="dashboard-card-title">
+                                            Today's Suggestion
+                                        </h3>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <p>
+                                You've been most productive in the morning
+                                this week. Consider completing your hardest
+                                task before your next break.
+                            </p>
+
+                            <button type="button" class="ai-suggestion-action">
+                                View insights
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="m9 18 6-6-6-6"></path>
+                                </svg>
+                            </button>
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+                <section class="dashboard-quick-actions">
+
+                    <div class="dashboard-section-heading">
+
+                        <div>
+                            <span class="dashboard-card-eyebrow">
+                                Shortcuts
+                            </span>
+                            <h2>Quick Actions</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="quick-action-grid">
+
+                        <a href="planner.html" class="quick-action-card">
+
+                            <span class="quick-action-icon">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 5v14M5 12h14"></path>
+                                </svg>
+                            </span>
+
+                            <span>
+                                <strong>Add Task</strong>
+                                <small>Plan your next move</small>
+                            </span>
+
+                            <svg class="quick-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m9 18 6-6-6-6"></path>
+                            </svg>
+
+                        </a>
+
+                        <a href="timer.html" class="quick-action-card">
+
+                            <span class="quick-action-icon">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <circle cx="12" cy="13" r="8"></circle>
+                                    <path d="M12 9v4l2.5 2.5M9 2h6"></path>
+                                </svg>
+                            </span>
+
+                            <span>
+                                <strong>Start Focus</strong>
+                                <small>Enter a focus session</small>
+                            </span>
+
+                            <svg class="quick-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m9 18 6-6-6-6"></path>
+                            </svg>
+
+                        </a>
+
+                        <a href="notes.html" class="quick-action-card">
+
+                            <span class="quick-action-icon">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M5 3h10l4 4v14H5z"></path>
+                                    <path d="M14 3v5h5M8 13h8M8 17h6"></path>
+                                </svg>
+                            </span>
+
+                            <span>
+                                <strong>New Note</strong>
+                                <small>Capture an idea</small>
+                            </span>
+
+                            <svg class="quick-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m9 18 6-6-6-6"></path>
+                            </svg>
+
+                        </a>
+
+                        <a href="analytics.html" class="quick-action-card">
+
+                            <span class="quick-action-icon">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M4 19V5M4 19h16"></path>
+                                    <path d="M8 16v-5M12 16V7M16 16v-8M20 16v-3"></path>
+                                </svg>
+                            </span>
+
+                            <span>
+                                <strong>View Analytics</strong>
+                                <small>See your progress</small>
+                            </span>
+
+                            <svg class="quick-action-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="m9 18 6-6-6-6"></path>
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </section>
+
+            </main>
+
+            <footer class="dashboard-footer">
+                <div class="dashboard-footer-content">
+
+                    <p>
+                        © 2026 Catalyst. The catalyst for your growth.
+                    </p>
+
+                    <div class="dashboard-footer-links">
+                        <a href="privacy-policy.html">Privacy</a>
+                        <span>•</span>
+                        <a href="terms.html">Terms</a>
+                    </div>
+
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <script src="../js/theme.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/animations.js"></script>
+
+</body>
+
+</html>
