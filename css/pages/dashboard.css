@@ -1677,3 +1677,12 @@
         transition: none;
     }
 }
+.task-item.completed .task-content strong {
+    text-decoration: line-through;
+    text-decoration-thickness: 1.5px;
+    opacity: 0.55;
+}
+
+.task-item.completed .task-content small {
+    opacity: 0.55;
+}

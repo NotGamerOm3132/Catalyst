@@ -80,3 +80,54 @@ document.addEventListener("DOMContentLoaded", () => {
         );
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const taskList = document.querySelector(".task-list");
+    const taskItems = [...document.querySelectorAll(".task-item")];
+
+    if (!taskList || !taskItems.length) return;
+
+    const updateTask = (taskItem) => {
+        const checkbox = taskItem.querySelector('input[type="checkbox"]');
+        const checkboxVisual = taskItem.querySelector(".task-checkbox");
+
+        if (!checkbox || !checkboxVisual) return;
+
+        taskItem.classList.toggle("completed", checkbox.checked);
+
+        checkboxVisual.innerHTML = checkbox.checked
+            ? `<svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m5 12 4 4L19 6"></path>
+               </svg>`
+            : "";
+    };
+
+    const sortTasks = () => {
+        const tasks = [...taskList.querySelectorAll(".task-item")];
+
+        tasks.sort((a, b) => {
+            const aCompleted = a.querySelector('input[type="checkbox"]').checked;
+            const bCompleted = b.querySelector('input[type="checkbox"]').checked;
+
+            return Number(bCompleted) - Number(aCompleted);
+        });
+
+        tasks.forEach((task) => {
+            taskList.appendChild(task);
+        });
+    };
+
+    taskItems.forEach((taskItem) => {
+        const checkbox = taskItem.querySelector('input[type="checkbox"]');
+
+        if (!checkbox) return;
+
+        updateTask(taskItem);
+
+        checkbox.addEventListener("change", () => {
+            updateTask(taskItem);
+            sortTasks();
+        });
+    });
+
+    sortTasks();
+});
